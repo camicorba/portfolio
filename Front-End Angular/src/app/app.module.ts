@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { LogosComponent } from './components/logos/logos.component';
 import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
+import { ExperienciaComponent } from './components/experiencia/experiencia.component';
+import { EducacionComponent } from './components/educacion/educacion.component';
+import { SkillsComponent } from './components/skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +16,9 @@ import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
     HeaderComponent,
     LogosComponent,
     AcercaDeComponent,
+    ExperienciaComponent,
+    EducacionComponent,
+    SkillsComponent,
   ],
   imports: [
     BrowserModule,

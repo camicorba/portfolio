@@ -1,0 +1,19 @@
+.exp-info{
+    width: 90%;
+    margin: auto;
+    text-align: start;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+.info-titulo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px 10px;
+}
+.titulo-sec{
+    padding: 0px 10px;
+}

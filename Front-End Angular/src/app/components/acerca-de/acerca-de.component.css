@@ -1,10 +1,17 @@
 .sobremi{
     margin: auto;
-    margin-top: 100px;
+    margin-top: 90px;
     width: 80%;
     text-align: center;
     font-size: 1.2em;
+    border-bottom: 1px solid #242424;
+    padding: 0px 30px;
 
+}
+.sobremi-data{
+    font-size: 1.3em;
+    padding: 5px;
+    margin: 5px;
 }
 .banner{
     background-image: url(../../../assets/banner-developer.png);
@@ -19,7 +26,7 @@
     position: absolute;
     width: 290px;
     height: 290px;
-    top: calc(100% - 200px);
+    top: calc(100% - 220px);
     left: calc(50% - 145px);
     border: 1px solid;
     border-radius: 50%;
