@@ -1,0 +1,23 @@
+.skill{
+    width: 90%;
+    margin: auto;
+    text-align: start;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+.skills-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
