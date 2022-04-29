@@ -1,0 +1,27 @@
+.proyectos{
+    width: 90%;
+    margin: auto;
+    text-align: start;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+}
+.card-img{
+    width: 30%;
+    margin: 20px;
+}
+.card-txt{
+    width: 70%;
+    margin-top: 10px;
+}
+.txt-title{
+    padding: 5px;
+    margin: 0;
+}
