@@ -1,0 +1,26 @@
+.sobremi{
+    margin: auto;
+    margin-top: 100px;
+    width: 80%;
+    text-align: center;
+    font-size: 1.2em;
+
+}
+.banner{
+    background-image: url(../../../assets/banner-developer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: beige;
+    height: 400px;
+    position: relative;
+}
+.banner-perfil{
+    position: absolute;
+    width: 290px;
+    height: 290px;
+    top: calc(100% - 200px);
+    left: calc(50% - 145px);
+    border: 1px solid;
+    border-radius: 50%;
+}

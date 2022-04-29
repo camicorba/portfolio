@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.icono{
+    height: 50px;
+    margin: 5px 15px;
+}
