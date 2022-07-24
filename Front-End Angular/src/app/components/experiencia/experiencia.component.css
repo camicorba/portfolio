@@ -2,7 +2,7 @@
     width: 90%;
     margin: auto;
     text-align: start;
-    padding-bottom: 10px;
+    padding: 2em 0;
     border-bottom: 1px solid gray;
 }
 
@@ -16,6 +16,7 @@
     height: 30px;
     padding: 5px 10px;
     margin: 0px;
+    font-size: 15px;
 }
 .titulo-sec{
     padding: 0px 10px;

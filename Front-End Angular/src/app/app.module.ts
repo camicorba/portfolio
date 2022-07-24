@@ -12,6 +12,11 @@ import { SkillsComponent } from './components/skills/skills.component';
 
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
+import { InicioSesionComponent } from './components/inicio-sesion/inicio-sesion.component';
+import { PortfolioComponent } from './components/portfolio/portfolio.component';
+import { ReactiveFormsModule } from '@angular/forms';
+
+import {HttpClientModule } from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -23,14 +28,18 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
     EducacionComponent,
     SkillsComponent,
     ProyectosComponent,
+    InicioSesionComponent,
+    PortfolioComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    ReactiveFormsModule,
     NgCircleProgressModule.forRoot({
       "imageHeight": 40,
       "imageWidth": 40
-    })
+    }),
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

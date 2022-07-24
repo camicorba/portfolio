@@ -8,8 +8,12 @@
     align-content: center;
     justify-content: space-between;
     align-items: center;
+    margin: 15px;
 }
 .icono{
-    height: 50px;
+    height: 35px;
     margin: 5px 15px;
+}
+.login{
+    cursor: pointer;
 }
